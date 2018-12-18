@@ -11,14 +11,6 @@
           <include name="closeApp"/>
         </methods>
       </class> <!-- script.TestLissueDate -->
-      <class name="script.InvaidLogin">
-        <methods>
-          <include name="openApp"/>
-          <include name="InVaidLogin"/>
-          <include name="print"/>
-          <include name="closeApp"/>
-        </methods>
-      </class> <!-- script.InvaidLogin -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
