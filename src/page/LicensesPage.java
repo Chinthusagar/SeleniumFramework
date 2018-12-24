@@ -8,6 +8,7 @@ import org.testng.Assert;
 
 public class LicensesPage extends BasePage{
 	
+	
 	@FindBy(xpath="//nobr[.='Issue Date:']/../../td[2]")
 	private WebElement issueDate;
 	
@@ -19,6 +20,7 @@ public class LicensesPage extends BasePage{
 	
 	public LicensesPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
+	
 	}
 	
 	public void verifyIssueDate(String LicDate) {

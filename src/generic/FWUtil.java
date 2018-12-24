@@ -3,6 +3,7 @@ package generic;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -10,6 +11,7 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.testng.Reporter;
 
 public class FWUtil {
 	public static String getXLData(String path,String sheet,int r,int c){
@@ -56,6 +58,26 @@ public class FWUtil {
 		}
 		catch (Exception e) {
 			e.printStackTrace();
+		}
+	}
+	
+	public static void Sleep(long Sec) {
+		try {
+			Thread.sleep(Sec);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public static void DeleteAllFilesInFolder(String path) {
+	
+		File dir = new File(path);
+		try {
+			FileUtils.cleanDirectory(dir);
+			Reporter.log("Files are deleted", true);
+		} catch (IOException e) {
+			Reporter.log("Dir is empty", true);
 		}
 	}
 

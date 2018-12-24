@@ -19,11 +19,14 @@ public class InvaidLogin  extends BaseTest{
 			//enter valid UN
 			l.setUserName(UN);
 			//enter value
+			
 			l.setPassword(PW);
 			//click login btn
 			l.ClickLoginBTN();
 			//validate load home page
 			l.verifyErrMsgIsDisplayed();
+			
+			driver.navigate().refresh();
 	
 		}
 	}

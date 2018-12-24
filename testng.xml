@@ -7,6 +7,7 @@
       <class name="script.ValidLogin"/>
       <class name="script.TestProductEdition"/>
       <class name="script.TestLissueDate"/>
+      <class name="script.TestAddTaskLnk"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

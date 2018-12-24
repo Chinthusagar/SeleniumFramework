@@ -1,5 +1,6 @@
 package generic;
 
+import java.net.HttpURLConnection;
 import java.time.Duration;
 import java.time.Instant;
 import java.time.LocalDate;
@@ -11,6 +12,7 @@ import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 
 public abstract class BaseTest implements IAutoConst{
 	public WebDriver driver;
@@ -22,8 +24,14 @@ public abstract class BaseTest implements IAutoConst{
 		System.setProperty(CHROME_KEY,CHROME_VALUE);
 	}
 	
+	@BeforeSuite
+	public void PreSetup() {
+		FWUtil.DeleteAllFilesInFolder(PHOTO_PATH);
+	}
+	
 	@BeforeMethod
 	public void openApp(){
+		
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(ITO,TimeUnit.SECONDS);
 		String date = LocalDate.now().getDayOfMonth()+" "+LocalDate.now().getMonth()+" "+LocalDate.now().getYear();
