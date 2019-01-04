@@ -4,6 +4,8 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.time.LocalDate;
+import java.time.LocalTime;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -14,6 +16,13 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Reporter;
 
 public class FWUtil {
+	
+	static int date = LocalDate.now().getDayOfMonth();
+	static int month = LocalDate.now().getMonthValue();
+	static int year = LocalDate.now().getYear();
+	static int hr = LocalTime.now().getHour();
+	static int min = LocalTime.now().getMinute();
+	
 	public static String getXLData(String path,String sheet,int r,int c){
 		String v="";
 		try{
@@ -55,6 +64,7 @@ public class FWUtil {
 			File srcFile = t.getScreenshotAs(OutputType.FILE);
 			File dstFile=new File(path);
 			FileUtils.copyFile(srcFile,dstFile);
+			System.out.println("Capture Screen");
 		}
 		catch (Exception e) {
 			e.printStackTrace();
@@ -80,6 +90,44 @@ public class FWUtil {
 			Reporter.log("Dir is empty", true);
 		}
 	}
+	
+	public static void MoveFileFromSrcToDst(String srcpath, String dstpath)  {
+		
+		File dscFile = new File(dstpath);
+		File srcFile = new File(srcpath);
+		try {
+			FileUtils.moveDirectory(srcFile, dscFile);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	public static void CreateFolderWithName(String path) {
+		
+		try {
+			new File(path).mkdir();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public static void moveFolderToDstFolder(String srcpath, String dstpaht) {
+		File srcDir = new File(srcpath);
+		File dstDir = new File(dstpaht);
+		
+		try {
+			FileUtils.copyDirectory(srcDir, dstDir);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+	}
+	
+	
+	
 
 	
 }

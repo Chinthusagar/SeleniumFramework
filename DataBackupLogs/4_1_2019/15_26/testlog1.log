@@ -1,0 +1,66 @@
+2019-01-04 15:26:05,603 [main] INFO PreSetup - Setting path for chrome driver
+2019-01-04 15:26:08,588 [main] INFO OpenApp - Launching the browser
+2019-01-04 15:26:14,818 [main] INFO OpenApp - Loding URL
+2019-01-04 15:26:14,839 [main] INFO script.ValidLogin - Reading UN From Input Excel File
+2019-01-04 15:26:15,394 [main] INFO script.ValidLogin - Username Used : admin
+2019-01-04 15:26:15,395 [main] INFO script.ValidLogin - Reading PW From Input Excel File
+2019-01-04 15:26:15,451 [main] INFO script.ValidLogin - Password Used : manager
+2019-01-04 15:26:15,494 [main] INFO script.ValidLogin - Home Page Title : actiTIME - Login
+2019-01-04 15:26:15,644 [main] INFO script.ValidLogin - Entering UN
+2019-01-04 15:26:15,753 [main] INFO script.ValidLogin - Entering PW
+2019-01-04 15:26:15,830 [main] INFO script.ValidLogin - Clicking LoginBTN
+2019-01-04 15:26:15,849 [main] INFO script.ValidLogin - Verifying Home Page Title Post Login
+2019-01-04 15:26:15,866 [main] INFO closeApp - testValidLogin
+2019-01-04 15:26:15,866 [main] INFO closeApp - Passed
+2019-01-04 15:26:18,233 [main] INFO OpenApp - Launching the browser
+2019-01-04 15:26:23,338 [main] INFO OpenApp - Loding URL
+2019-01-04 15:26:23,359 [main] INFO script.InvaidLogin - Reading Number of Test Data Set From Input Excel File
+2019-01-04 15:26:23,391 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-04 15:26:23,416 [main] INFO script.InvaidLogin - Username Used : absd
+2019-01-04 15:26:23,416 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-04 15:26:23,439 [main] INFO script.InvaidLogin - Password Used : qwert
+2019-01-04 15:26:23,534 [main] INFO script.InvaidLogin - Entering UN
+2019-01-04 15:26:23,624 [main] INFO script.InvaidLogin - Entering PW
+2019-01-04 15:26:23,690 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-04 15:26:25,852 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-04 15:26:26,740 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-04 15:26:26,741 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-04 15:26:26,800 [main] INFO script.InvaidLogin - Username Used : 
+2019-01-04 15:26:26,800 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-04 15:26:26,827 [main] INFO script.InvaidLogin - Password Used : 
+2019-01-04 15:26:26,908 [main] INFO script.InvaidLogin - Entering UN
+2019-01-04 15:26:26,976 [main] INFO script.InvaidLogin - Entering PW
+2019-01-04 15:26:27,031 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-04 15:26:29,939 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-04 15:26:30,834 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-04 15:26:30,835 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-04 15:26:30,883 [main] INFO script.InvaidLogin - Username Used : admin
+2019-01-04 15:26:30,883 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-04 15:26:30,906 [main] INFO script.InvaidLogin - Password Used : damager
+2019-01-04 15:26:31,020 [main] INFO script.InvaidLogin - Entering UN
+2019-01-04 15:26:31,112 [main] INFO script.InvaidLogin - Entering PW
+2019-01-04 15:26:31,181 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-04 15:26:32,846 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-04 15:26:33,810 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-04 15:26:33,810 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-04 15:26:33,836 [main] INFO script.InvaidLogin - Username Used : admin
+2019-01-04 15:26:33,836 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-04 15:26:33,882 [main] INFO script.InvaidLogin - Password Used : 
+2019-01-04 15:26:33,977 [main] INFO script.InvaidLogin - Entering UN
+2019-01-04 15:26:34,051 [main] INFO script.InvaidLogin - Entering PW
+2019-01-04 15:26:34,109 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-04 15:26:40,228 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-04 15:26:41,037 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-04 15:26:41,038 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-04 15:26:41,089 [main] INFO script.InvaidLogin - Username Used : 
+2019-01-04 15:26:41,089 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-04 15:26:41,115 [main] INFO script.InvaidLogin - Password Used : manager
+2019-01-04 15:26:41,203 [main] INFO script.InvaidLogin - Entering UN
+2019-01-04 15:26:41,289 [main] INFO script.InvaidLogin - Entering PW
+2019-01-04 15:26:41,356 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-04 15:26:42,996 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-04 15:26:44,012 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-04 15:26:44,049 [main] INFO closeApp - InVaidLogin
+2019-01-04 15:26:44,049 [main] INFO closeApp - Passed
+2019-01-04 15:26:46,473 [main] WARN closeTest - Pass:2
+2019-01-04 15:26:46,474 [main] WARN closeTest - Fail:0

@@ -1,10 +1,14 @@
 package page;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+
+import generic.BaseTest;
 
 public class LicensesPage extends BasePage{
 	
@@ -17,6 +21,8 @@ public class LicensesPage extends BasePage{
 	
 	@FindBy(xpath="//nobr[.='Product Edition:']/../../td[2]/b")
 	private WebElement PrdEditionNum;
+	
+	
 	
 	public LicensesPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);

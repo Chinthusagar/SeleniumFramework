@@ -1,5 +1,7 @@
 package page;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -21,6 +23,9 @@ public class LoginPage {
 	
 	@FindBy(xpath="//span[contains(text(),'invalid')]")
 	private WebElement errorMDG;
+
+	
+	
 	
 	public LoginPage(WebDriver driver) {
 		PageFactory.initElements(driver, this);
@@ -28,9 +33,12 @@ public class LoginPage {
 	}
 	
 	
+	
+	
 	public void setUserName(String UN) {
 		unTB.clear();
 		unTB.sendKeys(UN);
+		
 	}
 	
 	public void setPassword(String PW) {

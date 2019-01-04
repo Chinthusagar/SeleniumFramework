@@ -5,33 +5,34 @@
       <![CDATA[Files are deleted]]>
     </line>
     <line>
-      <![CDATA[PhotoPath:./photos/CheckLicenseDate.png]]>
-    </line>
-    <line>
-      <![CDATA[Pass:4]]>
-    </line>
-    <line>
-      <![CDATA[Fail:1]]>
+      <![CDATA[Files are deleted]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="89435" started-at="2018-12-24T13:33:22Z" finished-at="2018-12-24T13:34:51Z">
+  <suite name="Suite" duration-ms="97150" started-at="2019-01-04T20:05:45Z" finished-at="2019-01-04T20:07:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="89435" started-at="2018-12-24T13:33:22Z" finished-at="2018-12-24T13:34:51Z">
+    <test name="Test" duration-ms="97150" started-at="2019-01-04T20:05:45Z" finished-at="2019-01-04T20:07:22Z">
       <class name="script.TestProductEdition">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.TestProductEdition@7ce6a65d]" name="openApp" is-config="true" duration-ms="6606" started-at="2018-12-24T13:34:20Z" finished-at="2018-12-24T13:34:27Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="ProductEdition()[pri:4, instance:script.TestProductEdition@7ce6a65d]" name="ProductEdition" duration-ms="8512" started-at="2018-12-24T13:34:27Z" finished-at="2018-12-24T13:34:35Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ProductEdition -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestProductEdition@7ce6a65d]" name="closeApp" is-config="true" duration-ms="2346" started-at="2018-12-24T13:34:35Z" finished-at="2018-12-24T13:34:38Z">
+        <test-method status="PASS" signature="openApp(org.testng.ITestResult)[pri:0, instance:script.TestProductEdition@4d3167f4]" name="openApp" is-config="true" duration-ms="6651" started-at="2019-01-04T20:06:46Z" finished-at="2019-01-04T20:06:53Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ProductEdition status=SUCCESS method=TestProductEdition.ProductEdition()[pri:4, instance:script.TestProductEdition@7ce6a65d] output={null}]]]>
+                <![CDATA[[TestResult name=ProductEdition status=SUCCESS method=TestProductEdition.ProductEdition()[pri:4, instance:script.TestProductEdition@4d3167f4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="ProductEdition()[pri:4, instance:script.TestProductEdition@4d3167f4]" name="ProductEdition" duration-ms="10214" started-at="2019-01-04T20:06:53Z" description="Validating the Correct Product Edition" finished-at="2019-01-04T20:07:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductEdition -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestProductEdition@4d3167f4]" name="closeApp" is-config="true" duration-ms="2371" started-at="2019-01-04T20:07:03Z" finished-at="2019-01-04T20:07:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ProductEdition status=SUCCESS method=TestProductEdition.ProductEdition()[pri:4, instance:script.TestProductEdition@4d3167f4] output={null}]]]>
               </value>
             </param>
           </params>
@@ -40,57 +41,68 @@
         </test-method> <!-- closeApp -->
       </class> <!-- script.TestProductEdition -->
       <class name="script.InvaidLogin">
-        <test-method status="PASS" signature="PreSetup()[pri:0, instance:script.InvaidLogin@26a7b76d]" name="PreSetup" is-config="true" duration-ms="18" started-at="2018-12-24T13:33:22Z" finished-at="2018-12-24T13:33:22Z">
+        <test-method status="PASS" signature="PreSetup()[pri:0, instance:script.InvaidLogin@3aeaafa6]" name="PreSetup" is-config="true" duration-ms="77" started-at="2019-01-04T20:05:45Z" finished-at="2019-01-04T20:05:45Z">
           <reporter-output>
+            <line>
+              <![CDATA[Files are deleted]]>
+            </line>
             <line>
               <![CDATA[Files are deleted]]>
             </line>
           </reporter-output>
         </test-method> <!-- PreSetup -->
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.InvaidLogin@26a7b76d]" name="openApp" is-config="true" duration-ms="6321" started-at="2018-12-24T13:33:33Z" finished-at="2018-12-24T13:33:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="InVaidLogin()[pri:2, instance:script.InvaidLogin@26a7b76d]" name="InVaidLogin" duration-ms="13113" started-at="2018-12-24T13:33:39Z" finished-at="2018-12-24T13:33:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- InVaidLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvaidLogin@26a7b76d]" name="closeApp" is-config="true" duration-ms="2325" started-at="2018-12-24T13:33:52Z" finished-at="2018-12-24T13:33:55Z">
+        <test-method status="PASS" signature="openApp(org.testng.ITestResult)[pri:0, instance:script.InvaidLogin@3aeaafa6]" name="openApp" is-config="true" duration-ms="6469" started-at="2019-01-04T20:05:55Z" finished-at="2019-01-04T20:06:02Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=InVaidLogin status=SUCCESS method=InvaidLogin.InVaidLogin()[pri:2, instance:script.InvaidLogin@26a7b76d] output={null}]]]>
+                <![CDATA[[TestResult name=InVaidLogin status=SUCCESS method=InvaidLogin.InVaidLogin()[pri:2, instance:script.InvaidLogin@3aeaafa6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="InVaidLogin()[pri:2, instance:script.InvaidLogin@3aeaafa6]" name="InVaidLogin" duration-ms="16573" started-at="2019-01-04T20:06:02Z" description="Validate Invalid Login" finished-at="2019-01-04T20:06:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InVaidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.InvaidLogin@3aeaafa6]" name="closeApp" is-config="true" duration-ms="2338" started-at="2019-01-04T20:06:18Z" finished-at="2019-01-04T20:06:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InVaidLogin status=SUCCESS method=InvaidLogin.InVaidLogin()[pri:2, instance:script.InvaidLogin@3aeaafa6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="print()[pri:0, instance:script.InvaidLogin@26a7b76d]" name="print" is-config="true" duration-ms="251" started-at="2018-12-24T13:34:52Z" finished-at="2018-12-24T13:34:52Z">
+        <test-method status="PASS" signature="print()[pri:0, instance:script.InvaidLogin@3aeaafa6]" name="print" is-config="true" duration-ms="333" started-at="2019-01-04T20:07:23Z" finished-at="2019-01-04T20:07:23Z">
           <reporter-output>
-            <line>
-              <![CDATA[Pass:4]]>
-            </line>
-            <line>
-              <![CDATA[Fail:1]]>
-            </line>
           </reporter-output>
         </test-method> <!-- print -->
       </class> <!-- script.InvaidLogin -->
       <class name="script.TestAddTaskLnk">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.TestAddTaskLnk@e874448]" name="openApp" is-config="true" duration-ms="6309" started-at="2018-12-24T13:34:38Z" finished-at="2018-12-24T13:34:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="AddTaskLnk()[pri:4, instance:script.TestAddTaskLnk@e874448]" name="AddTaskLnk" duration-ms="5233" started-at="2018-12-24T13:34:44Z" finished-at="2018-12-24T13:34:49Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- AddTaskLnk -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestAddTaskLnk@e874448]" name="closeApp" is-config="true" duration-ms="2325" started-at="2018-12-24T13:34:49Z" finished-at="2018-12-24T13:34:51Z">
+        <test-method status="PASS" signature="openApp(org.testng.ITestResult)[pri:0, instance:script.TestAddTaskLnk@6121c9d6]" name="openApp" is-config="true" duration-ms="6723" started-at="2019-01-04T20:07:05Z" finished-at="2019-01-04T20:07:12Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddTaskLnk status=SUCCESS method=TestAddTaskLnk.AddTaskLnk()[pri:4, instance:script.TestAddTaskLnk@e874448] output={null}]]]>
+                <![CDATA[[TestResult name=AddTaskLnk status=SUCCESS method=TestAddTaskLnk.AddTaskLnk()[pri:5, instance:script.TestAddTaskLnk@6121c9d6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="AddTaskLnk()[pri:5, instance:script.TestAddTaskLnk@6121c9d6]" name="AddTaskLnk" duration-ms="7801" started-at="2019-01-04T20:07:12Z" description="Validating the Add Task Link To List The Options" finished-at="2019-01-04T20:07:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddTaskLnk -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestAddTaskLnk@6121c9d6]" name="closeApp" is-config="true" duration-ms="2364" started-at="2019-01-04T20:07:20Z" finished-at="2019-01-04T20:07:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddTaskLnk status=SUCCESS method=TestAddTaskLnk.AddTaskLnk()[pri:5, instance:script.TestAddTaskLnk@6121c9d6] output={null}]]]>
               </value>
             </param>
           </params>
@@ -99,11 +111,18 @@
         </test-method> <!-- closeApp -->
       </class> <!-- script.TestAddTaskLnk -->
       <class name="script.TestLissueDate">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.TestLissueDate@1500955a]" name="openApp" is-config="true" duration-ms="6634" started-at="2018-12-24T13:33:55Z" finished-at="2018-12-24T13:34:01Z">
+        <test-method status="PASS" signature="openApp(org.testng.ITestResult)[pri:0, instance:script.TestLissueDate@ed9d034]" name="openApp" is-config="true" duration-ms="6303" started-at="2019-01-04T20:06:21Z" finished-at="2019-01-04T20:06:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CheckLicenseDate status=FAILURE method=TestLissueDate.CheckLicenseDate()[pri:3, instance:script.TestLissueDate@ed9d034] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApp -->
-        <test-method status="FAIL" signature="CheckLicenseDate()[pri:3, instance:script.TestLissueDate@1500955a]" name="CheckLicenseDate" duration-ms="16261" started-at="2018-12-24T13:34:01Z" finished-at="2018-12-24T13:34:18Z">
+        <test-method status="FAIL" signature="CheckLicenseDate()[pri:3, instance:script.TestLissueDate@ed9d034]" name="CheckLicenseDate" duration-ms="16283" started-at="2019-01-04T20:06:27Z" description="Validating the Correct Product Licence Issue Date" finished-at="2019-01-04T20:06:43Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//nobr[.='Issue Date:']/../../td[2]"}
@@ -114,8 +133,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
 System info: host: 'CHINTU-PC', ip: '192.168.43.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Chintu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50002}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: cfaea5912a2b0c0b154aba44ae75e1d7
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Chintu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50746}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 4d0a2d79b66cd3470751d109ac315fb1
 *** Element info: {Using=xpath, value=//nobr[.='Issue Date:']/../../td[2]}]]>
             </message>
             <full-stacktrace>
@@ -127,8 +146,8 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
 System info: host: 'CHINTU-PC', ip: '192.168.43.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Chintu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50002}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: cfaea5912a2b0c0b154aba44ae75e1d7
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Chintu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50746}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 4d0a2d79b66cd3470751d109ac315fb1
 *** Element info: {Using=xpath, value=//nobr[.='Issue Date:']/../../td[2]}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -148,9 +167,9 @@ at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
 at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
 at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-at com.sun.proxy.$Proxy11.getText(Unknown Source)
-at page.LicensesPage.verifyIssueDate(LicensesPage.java:27)
-at script.TestLissueDate.CheckLicenseDate(TestLissueDate.java:28)
+at com.sun.proxy.$Proxy12.getText(Unknown Source)
+at page.LicensesPage.verifyIssueDate(LicensesPage.java:33)
+at script.TestLissueDate.CheckLicenseDate(TestLissueDate.java:51)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -182,35 +201,39 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CheckLicenseDate -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestLissueDate@1500955a]" name="closeApp" is-config="true" duration-ms="2641" started-at="2018-12-24T13:34:18Z" finished-at="2018-12-24T13:34:20Z">
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.TestLissueDate@ed9d034]" name="closeApp" is-config="true" duration-ms="2715" started-at="2019-01-04T20:06:43Z" finished-at="2019-01-04T20:06:46Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=CheckLicenseDate status=FAILURE method=TestLissueDate.CheckLicenseDate()[pri:3, instance:script.TestLissueDate@1500955a] output={null}]]]>
+                <![CDATA[[TestResult name=CheckLicenseDate status=FAILURE method=TestLissueDate.CheckLicenseDate()[pri:3, instance:script.TestLissueDate@ed9d034] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
-            <line>
-              <![CDATA[PhotoPath:./photos/CheckLicenseDate.png]]>
-            </line>
           </reporter-output>
         </test-method> <!-- closeApp -->
       </class> <!-- script.TestLissueDate -->
       <class name="script.ValidLogin">
-        <test-method status="PASS" signature="openApp()[pri:0, instance:script.ValidLogin@4abdb505]" name="openApp" is-config="true" duration-ms="7430" started-at="2018-12-24T13:33:22Z" finished-at="2018-12-24T13:33:30Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- openApp -->
-        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin@4abdb505]" name="testValidLogin" duration-ms="1006" started-at="2018-12-24T13:33:30Z" finished-at="2018-12-24T13:33:31Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testValidLogin -->
-        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@4abdb505]" name="closeApp" is-config="true" duration-ms="2325" started-at="2018-12-24T13:33:31Z" finished-at="2018-12-24T13:33:33Z">
+        <test-method status="PASS" signature="openApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@76a3e297]" name="openApp" is-config="true" duration-ms="7021" started-at="2019-01-04T20:05:45Z" finished-at="2019-01-04T20:05:52Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@4abdb505] output={null}]]]>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@76a3e297] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:script.ValidLogin@76a3e297]" name="testValidLogin" duration-ms="933" started-at="2019-01-04T20:05:52Z" description="Valid Login Scenario" finished-at="2019-01-04T20:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:script.ValidLogin@76a3e297]" name="closeApp" is-config="true" duration-ms="2329" started-at="2019-01-04T20:05:53Z" finished-at="2019-01-04T20:05:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testValidLogin status=SUCCESS method=ValidLogin.testValidLogin()[pri:1, instance:script.ValidLogin@76a3e297] output={null}]]]>
               </value>
             </param>
           </params>
