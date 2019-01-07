@@ -54,6 +54,7 @@ public class ListenersImplementation extends BaseTest implements ITestListener{
     
     public synchronized void onTestSkipped(ITestResult result) {
         System.out.println((result.getMethod().getMethodName() + " skipped!"));
+        test.get().skip("Test Skipped");
         test.get().skip(result.getThrowable());
     }
  
