@@ -1,0 +1,119 @@
+2019-01-06 14:31:02,187 [main] INFO PreSetup - Creating Backup Folders
+2019-01-06 14:31:06,694 [main] INFO OpenApp - Launching the browser
+2019-01-06 14:31:11,743 [main] INFO OpenApp - Loding URL
+2019-01-06 14:31:11,790 [main] INFO script.ValidLogin - Reading UN From Input Excel File
+2019-01-06 14:31:12,268 [main] INFO script.ValidLogin - Username Used : admin
+2019-01-06 14:31:12,268 [main] INFO script.ValidLogin - Reading PW From Input Excel File
+2019-01-06 14:31:12,311 [main] INFO script.ValidLogin - Password Used : manager
+2019-01-06 14:31:12,345 [main] INFO script.ValidLogin - Home Page Title : actiTIME - Login
+2019-01-06 14:31:12,407 [main] INFO script.ValidLogin - Entering UN
+2019-01-06 14:31:12,439 [main] INFO script.ValidLogin - Entering PW
+2019-01-06 14:31:12,667 [main] INFO script.ValidLogin - Clicking LoginBTN
+2019-01-06 14:31:12,711 [main] INFO script.ValidLogin - Verifying Home Page Title Post Login
+2019-01-06 14:31:12,774 [main] INFO closeApp - testValidLogin
+2019-01-06 14:31:12,775 [main] INFO closeApp - Passed
+2019-01-06 14:31:19,192 [main] INFO OpenApp - Launching the browser
+2019-01-06 14:31:24,859 [main] INFO OpenApp - Loding URL
+2019-01-06 14:31:24,926 [main] INFO script.InvaidLogin - Reading Number of Test Data Set From Input Excel File
+2019-01-06 14:31:24,958 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 14:31:24,995 [main] INFO script.InvaidLogin - Username Used : absd
+2019-01-06 14:31:24,995 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 14:31:25,017 [main] INFO script.InvaidLogin - Password Used : qwert
+2019-01-06 14:31:25,048 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 14:31:25,078 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 14:31:25,303 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 14:31:28,221 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 14:31:33,327 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 14:31:33,328 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 14:31:33,398 [main] INFO script.InvaidLogin - Username Used : 
+2019-01-06 14:31:33,398 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 14:31:33,418 [main] INFO script.InvaidLogin - Password Used : 
+2019-01-06 14:31:33,454 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 14:31:33,483 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 14:31:33,713 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 14:31:34,908 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 14:31:39,828 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 14:31:39,829 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 14:31:39,893 [main] INFO script.InvaidLogin - Username Used : admin
+2019-01-06 14:31:39,893 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 14:31:39,915 [main] INFO script.InvaidLogin - Password Used : damager
+2019-01-06 14:31:39,966 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 14:31:39,995 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 14:31:40,223 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 14:31:41,582 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 14:31:46,383 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 14:31:46,384 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 14:31:46,450 [main] INFO script.InvaidLogin - Username Used : admin
+2019-01-06 14:31:46,450 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 14:31:46,474 [main] INFO script.InvaidLogin - Password Used : 
+2019-01-06 14:31:46,555 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 14:31:46,578 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 14:31:46,800 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 14:31:47,978 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 14:31:53,275 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 14:31:53,276 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 14:31:53,339 [main] INFO script.InvaidLogin - Username Used : 
+2019-01-06 14:31:53,339 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 14:31:53,358 [main] INFO script.InvaidLogin - Password Used : manager
+2019-01-06 14:31:53,452 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 14:31:53,480 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 14:31:53,708 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 14:31:55,603 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 14:32:00,320 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 14:32:00,370 [main] INFO closeApp - InVaidLogin
+2019-01-06 14:32:00,371 [main] INFO closeApp - Passed
+2019-01-06 14:32:05,987 [main] INFO OpenApp - Launching the browser
+2019-01-06 14:32:11,250 [main] INFO OpenApp - Loding URL
+2019-01-06 14:32:11,290 [main] INFO script.TestAddTaskLnk - Reading UN From Input Excel File
+2019-01-06 14:32:11,324 [main] INFO script.TestAddTaskLnk - Username Used : admin
+2019-01-06 14:32:11,325 [main] INFO script.TestAddTaskLnk - Reading PW From Input Excel File
+2019-01-06 14:32:11,354 [main] INFO script.TestAddTaskLnk - Password Used : manager
+2019-01-06 14:32:11,375 [main] INFO script.TestAddTaskLnk - LicIssueDate Is:Nov21,2016
+2019-01-06 14:32:11,418 [main] INFO script.TestAddTaskLnk - Entering UN
+2019-01-06 14:32:11,453 [main] INFO script.TestAddTaskLnk - Entering PW
+2019-01-06 14:32:11,681 [main] INFO script.TestAddTaskLnk - Clicking LoginBTN
+2019-01-06 14:32:15,399 [main] INFO closeApp - CheckLicenseDate
+2019-01-06 14:32:15,400 [main] WARN closeApp - Failed
+2019-01-06 14:32:15,400 [main] ERROR closeApp - Element <div class="popup_menu_label"> is not clickable at point (1133.5,69.10000610351562) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'CHINTU-PC', ip: '192.168.43.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 4764, moz:profile: C:\Users\Chintu\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 68da0b88-b26a-4a8d-8a2b-d5ec5e1de759
+2019-01-06 14:32:21,832 [main] INFO OpenApp - Launching the browser
+2019-01-06 14:32:26,940 [main] INFO OpenApp - Loding URL
+2019-01-06 14:32:26,973 [main] INFO script.TestProductEdition - Reading UN From Input Excel File
+2019-01-06 14:32:26,989 [main] INFO script.TestProductEdition - Username Used : admin
+2019-01-06 14:32:26,990 [main] INFO script.TestProductEdition - Reading PW From Input Excel File
+2019-01-06 14:32:27,009 [main] INFO script.TestProductEdition - Password Used : manager
+2019-01-06 14:32:27,028 [main] INFO script.TestProductEdition - expectedproductEdition : actiTIME 2017.4
+2019-01-06 14:32:27,062 [main] INFO script.TestProductEdition - Entering UN
+2019-01-06 14:32:27,089 [main] INFO script.TestProductEdition - Entering PW
+2019-01-06 14:32:27,314 [main] INFO script.TestProductEdition - Clicking LoginBTN
+2019-01-06 14:32:30,635 [main] INFO closeApp - ProductEdition
+2019-01-06 14:32:30,635 [main] WARN closeApp - Failed
+2019-01-06 14:32:30,636 [main] ERROR closeApp - Element <div class="popup_menu_label"> is not clickable at point (1133.5,69.10000610351562) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'CHINTU-PC', ip: '192.168.43.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 5308, moz:profile: C:\Users\Chintu\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ce8fce25-1e68-4f62-9f95-94a60db01153
+2019-01-06 14:32:37,066 [main] INFO OpenApp - Launching the browser
+2019-01-06 14:32:42,626 [main] INFO OpenApp - Loding URL
+2019-01-06 14:32:42,660 [main] INFO script.TestAddTaskLnk - Reading UN From Input Excel File
+2019-01-06 14:32:42,691 [main] INFO script.TestAddTaskLnk - Username Used : admin
+2019-01-06 14:32:42,691 [main] INFO script.TestAddTaskLnk - Reading PW From Input Excel File
+2019-01-06 14:32:42,720 [main] INFO script.TestAddTaskLnk - Password Used : manager
+2019-01-06 14:32:42,752 [main] INFO script.TestAddTaskLnk - Entering UN
+2019-01-06 14:32:42,784 [main] INFO script.TestAddTaskLnk - Entering PW
+2019-01-06 14:32:43,015 [main] INFO script.TestAddTaskLnk - Clicking LoginBTN
+2019-01-06 14:32:47,123 [main] INFO closeApp - AddTaskLnk
+2019-01-06 14:32:47,124 [main] WARN closeApp - Failed
+2019-01-06 14:32:47,124 [main] ERROR closeApp - Element <span class="dashedLink "> is not clickable at point (403,271) because another element <div id="preInsertedTransformedMoireId" class="transformedMoireClass"> obscures it
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
+System info: host: 'CHINTU-PC', ip: '192.168.43.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.23.0, moz:headless: false, moz:processID: 6688, moz:profile: C:\Users\Chintu\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 940742da-5b8e-41f0-be90-3ab9c33a5e2c
+2019-01-06 14:32:49,178 [main] WARN closeTest - Pass:2
+2019-01-06 14:32:49,179 [main] WARN closeTest - Fail:3

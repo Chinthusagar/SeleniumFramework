@@ -9,7 +9,6 @@ import com.aventstack.extentreports.ExtentTest;
 
 import generic.BaseTest;
 import generic.FWUtil;
-import generic.Log;
 import page.LoginPage;
 
 @Listeners(listener.ListenersImplementation.class)
@@ -23,8 +22,7 @@ public class InvaidLogin  extends BaseTest{
 		logger = Logger.getLogger(InvaidLogin.class.getName());
 		PropertyConfigurator.configure("log4j.properties");
 		
-//		ExtentLogger =extent.createTest("Invalid Login");
-		
+
 		logger.info("Reading Number of Test Data Set From Input Excel File");
 		int RC = FWUtil.getXLRowCount(XL_PATH, "InVaidLogin");
 		for(int i=1;i<=RC;i++) {

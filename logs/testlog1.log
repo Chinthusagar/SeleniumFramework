@@ -1,82 +1,82 @@
-2019-01-05 01:35:45,369 [main] INFO PreSetup - Setting path for chrome driver
-2019-01-05 01:35:48,418 [main] INFO OpenApp - Launching the browser
-2019-01-05 01:35:52,412 [main] INFO OpenApp - Loding URL
-2019-01-05 01:35:52,480 [main] INFO script.ValidLogin - Reading UN From Input Excel File
-2019-01-05 01:35:52,961 [main] INFO script.ValidLogin - Username Used : admin
-2019-01-05 01:35:52,961 [main] INFO script.ValidLogin - Reading PW From Input Excel File
-2019-01-05 01:35:53,002 [main] INFO script.ValidLogin - Password Used : manager
-2019-01-05 01:35:53,036 [main] INFO script.ValidLogin - Home Page Title : actiTIME - Login
-2019-01-05 01:35:53,161 [main] INFO script.ValidLogin - Entering UN
-2019-01-05 01:35:53,258 [main] INFO script.ValidLogin - Entering PW
-2019-01-05 01:35:53,329 [main] INFO script.ValidLogin - Clicking LoginBTN
-2019-01-05 01:35:53,346 [main] INFO script.ValidLogin - Verifying Home Page Title Post Login
-2019-01-05 01:35:53,367 [main] INFO closeApp - testValidLogin
-2019-01-05 01:35:53,368 [main] INFO closeApp - Passed
-2019-01-05 01:35:57,878 [main] INFO OpenApp - Launching the browser
-2019-01-05 01:36:02,153 [main] INFO OpenApp - Loding URL
-2019-01-05 01:36:02,178 [main] INFO script.InvaidLogin - Reading Number of Test Data Set From Input Excel File
-2019-01-05 01:36:02,210 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
-2019-01-05 01:36:02,236 [main] INFO script.InvaidLogin - Username Used : absd
-2019-01-05 01:36:02,236 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
-2019-01-05 01:36:02,265 [main] INFO script.InvaidLogin - Password Used : qwert
-2019-01-05 01:36:02,358 [main] INFO script.InvaidLogin - Entering UN
-2019-01-05 01:36:02,452 [main] INFO script.InvaidLogin - Entering PW
-2019-01-05 01:36:02,534 [main] INFO script.InvaidLogin - Clicking LoginBTN
-2019-01-05 01:36:04,899 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
-2019-01-05 01:36:05,652 [main] INFO script.InvaidLogin - Refreshing The Page
-2019-01-05 01:36:05,652 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
-2019-01-05 01:36:05,707 [main] INFO script.InvaidLogin - Username Used : 
-2019-01-05 01:36:05,708 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
-2019-01-05 01:36:05,739 [main] INFO script.InvaidLogin - Password Used : 
-2019-01-05 01:36:05,837 [main] INFO script.InvaidLogin - Entering UN
-2019-01-05 01:36:05,909 [main] INFO script.InvaidLogin - Entering PW
-2019-01-05 01:36:05,966 [main] INFO script.InvaidLogin - Clicking LoginBTN
-2019-01-05 01:36:07,069 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
-2019-01-05 01:36:07,637 [main] INFO script.InvaidLogin - Refreshing The Page
-2019-01-05 01:36:07,637 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
-2019-01-05 01:36:07,675 [main] INFO script.InvaidLogin - Username Used : admin
-2019-01-05 01:36:07,675 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
-2019-01-05 01:36:07,698 [main] INFO script.InvaidLogin - Password Used : damager
-2019-01-05 01:36:07,808 [main] INFO script.InvaidLogin - Entering UN
-2019-01-05 01:36:07,897 [main] INFO script.InvaidLogin - Entering PW
-2019-01-05 01:36:07,964 [main] INFO script.InvaidLogin - Clicking LoginBTN
-2019-01-05 01:36:12,461 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
-2019-01-05 01:36:13,279 [main] INFO script.InvaidLogin - Refreshing The Page
-2019-01-05 01:36:13,279 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
-2019-01-05 01:36:13,305 [main] INFO script.InvaidLogin - Username Used : admin
-2019-01-05 01:36:13,305 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
-2019-01-05 01:36:13,344 [main] INFO script.InvaidLogin - Password Used : 
-2019-01-05 01:36:13,441 [main] INFO script.InvaidLogin - Entering UN
-2019-01-05 01:36:13,516 [main] INFO script.InvaidLogin - Entering PW
-2019-01-05 01:36:13,572 [main] INFO script.InvaidLogin - Clicking LoginBTN
-2019-01-05 01:36:15,107 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
-2019-01-05 01:36:15,905 [main] INFO script.InvaidLogin - Refreshing The Page
-2019-01-05 01:36:15,905 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
-2019-01-05 01:36:15,930 [main] INFO script.InvaidLogin - Username Used : 
-2019-01-05 01:36:15,930 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
-2019-01-05 01:36:15,974 [main] INFO script.InvaidLogin - Password Used : manager
-2019-01-05 01:36:16,052 [main] INFO script.InvaidLogin - Entering UN
-2019-01-05 01:36:16,148 [main] INFO script.InvaidLogin - Entering PW
-2019-01-05 01:36:16,205 [main] INFO script.InvaidLogin - Clicking LoginBTN
-2019-01-05 01:36:17,907 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
-2019-01-05 01:36:18,728 [main] INFO script.InvaidLogin - Refreshing The Page
-2019-01-05 01:36:18,749 [main] INFO closeApp - InVaidLogin
-2019-01-05 01:36:18,750 [main] INFO closeApp - Passed
-2019-01-05 01:36:23,340 [main] INFO OpenApp - Launching the browser
-2019-01-05 01:36:27,371 [main] INFO OpenApp - Loding URL
-2019-01-05 01:36:27,392 [main] INFO script.TestAddTaskLnk - Reading UN From Input Excel File
-2019-01-05 01:36:27,409 [main] INFO script.TestAddTaskLnk - Username Used : admin
-2019-01-05 01:36:27,410 [main] INFO script.TestAddTaskLnk - Reading PW From Input Excel File
-2019-01-05 01:36:27,440 [main] INFO script.TestAddTaskLnk - Password Used : manager
-2019-01-05 01:36:27,459 [main] INFO script.TestAddTaskLnk - LicIssueDate Is:Nov21,2016
-2019-01-05 01:36:27,550 [main] INFO script.TestAddTaskLnk - Entering UN
-2019-01-05 01:36:27,650 [main] INFO script.TestAddTaskLnk - Entering PW
-2019-01-05 01:36:27,714 [main] INFO script.TestAddTaskLnk - Clicking LoginBTN
-2019-01-05 01:36:32,215 [main] INFO script.TestAddTaskLnk - Click on Setting
-2019-01-05 01:36:33,582 [main] INFO script.TestAddTaskLnk - Click on Licenses
-2019-01-05 01:36:43,718 [main] INFO closeApp - CheckLicenseDate
-2019-01-05 01:36:43,719 [main] WARN closeApp - Failed
-2019-01-05 01:36:43,720 [main] ERROR closeApp - no such element: Unable to locate element: {"method":"xpath","selector":"//nobr[.='Issue Date:']/../../td[2]"}
+2019-01-06 22:20:29,007 [main] INFO PreSetup - Creating Backup Folders
+2019-01-06 22:20:32,039 [main] INFO OpenApp - Launching the browser
+2019-01-06 22:20:36,931 [main] INFO OpenApp - Loding URL
+2019-01-06 22:20:36,950 [main] INFO script.ValidLogin - Reading UN From Input Excel File
+2019-01-06 22:20:37,512 [main] INFO script.ValidLogin - Username Used : admin
+2019-01-06 22:20:37,512 [main] INFO script.ValidLogin - Reading PW From Input Excel File
+2019-01-06 22:20:37,576 [main] INFO script.ValidLogin - Password Used : manager
+2019-01-06 22:20:37,621 [main] INFO script.ValidLogin - Home Page Title : actiTIME - Login
+2019-01-06 22:20:37,742 [main] INFO script.ValidLogin - Entering UN
+2019-01-06 22:20:37,841 [main] INFO script.ValidLogin - Entering PW
+2019-01-06 22:20:37,906 [main] INFO script.ValidLogin - Clicking LoginBTN
+2019-01-06 22:20:37,924 [main] INFO script.ValidLogin - Verifying Home Page Title Post Login
+2019-01-06 22:20:37,940 [main] INFO closeApp - testValidLogin
+2019-01-06 22:20:37,941 [main] INFO closeApp - Passed
+2019-01-06 22:20:42,397 [main] INFO OpenApp - Launching the browser
+2019-01-06 22:20:46,823 [main] INFO OpenApp - Loding URL
+2019-01-06 22:20:46,843 [main] INFO script.InvaidLogin - Reading Number of Test Data Set From Input Excel File
+2019-01-06 22:20:46,875 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 22:20:46,911 [main] INFO script.InvaidLogin - Username Used : absd
+2019-01-06 22:20:46,911 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 22:20:46,933 [main] INFO script.InvaidLogin - Password Used : qwert
+2019-01-06 22:20:47,026 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 22:20:47,115 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 22:20:47,178 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 22:20:49,411 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 22:20:50,300 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 22:20:50,301 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 22:20:50,344 [main] INFO script.InvaidLogin - Username Used : 
+2019-01-06 22:20:50,344 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 22:20:50,374 [main] INFO script.InvaidLogin - Password Used : 
+2019-01-06 22:20:50,457 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 22:20:50,528 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 22:20:50,582 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 22:20:52,775 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 22:20:53,597 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 22:20:53,598 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 22:20:53,624 [main] INFO script.InvaidLogin - Username Used : admin
+2019-01-06 22:20:53,624 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 22:20:53,681 [main] INFO script.InvaidLogin - Password Used : damager
+2019-01-06 22:20:53,798 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 22:20:53,888 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 22:20:53,942 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 22:20:55,760 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 22:20:55,781 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 22:20:55,781 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 22:20:55,808 [main] INFO script.InvaidLogin - Username Used : admin
+2019-01-06 22:20:55,808 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 22:20:55,831 [main] INFO script.InvaidLogin - Password Used : 
+2019-01-06 22:20:56,963 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 22:20:57,035 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 22:20:57,088 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 22:20:58,821 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 22:20:58,843 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 22:20:58,844 [main] INFO script.InvaidLogin - Reading UN From Input Excel File
+2019-01-06 22:20:58,866 [main] INFO script.InvaidLogin - Username Used : 
+2019-01-06 22:20:58,866 [main] INFO script.InvaidLogin - Reading PW From Input Excel File
+2019-01-06 22:20:58,888 [main] INFO script.InvaidLogin - Password Used : manager
+2019-01-06 22:21:00,028 [main] INFO script.InvaidLogin - Entering UN
+2019-01-06 22:21:00,113 [main] INFO script.InvaidLogin - Entering PW
+2019-01-06 22:21:00,171 [main] INFO script.InvaidLogin - Clicking LoginBTN
+2019-01-06 22:21:01,745 [main] INFO script.InvaidLogin - Verify Error MSG Is Displayed
+2019-01-06 22:21:03,971 [main] INFO script.InvaidLogin - Refreshing The Page
+2019-01-06 22:21:04,008 [main] INFO closeApp - InVaidLogin
+2019-01-06 22:21:04,008 [main] INFO closeApp - Passed
+2019-01-06 22:21:08,456 [main] INFO OpenApp - Launching the browser
+2019-01-06 22:21:12,554 [main] INFO OpenApp - Loding URL
+2019-01-06 22:21:12,568 [main] INFO script.TestAddTaskLnk - Reading UN From Input Excel File
+2019-01-06 22:21:12,585 [main] INFO script.TestAddTaskLnk - Username Used : admin
+2019-01-06 22:21:12,585 [main] INFO script.TestAddTaskLnk - Reading PW From Input Excel File
+2019-01-06 22:21:12,624 [main] INFO script.TestAddTaskLnk - Password Used : manager
+2019-01-06 22:21:12,646 [main] INFO script.TestAddTaskLnk - LicIssueDate Is:Nov21,2016
+2019-01-06 22:21:12,761 [main] INFO script.TestAddTaskLnk - Entering UN
+2019-01-06 22:21:12,887 [main] INFO script.TestAddTaskLnk - Entering PW
+2019-01-06 22:21:12,954 [main] INFO script.TestAddTaskLnk - Clicking LoginBTN
+2019-01-06 22:21:17,626 [main] INFO script.TestAddTaskLnk - Click on Setting
+2019-01-06 22:21:19,836 [main] INFO script.TestAddTaskLnk - Click on Licenses
+2019-01-06 22:21:29,910 [main] INFO closeApp - CheckLicenseDate
+2019-01-06 22:21:29,910 [main] WARN closeApp - Failed
+2019-01-06 22:21:29,911 [main] ERROR closeApp - no such element: Unable to locate element: {"method":"xpath","selector":"//nobr[.='Issue Date:']/../../td[2]"}
   (Session info: chrome=71.0.3578.98)
   (Driver info: chromedriver=2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
 Command duration or timeout: 0 milliseconds
@@ -84,38 +84,38 @@ For documentation on this error, please visit: http://seleniumhq.org/exceptions/
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:13:22.693Z'
 System info: host: 'CHINTU-PC', ip: '192.168.43.130', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_60'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Chintu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50746}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
-Session ID: 4d0a2d79b66cd3470751d109ac315fb1
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.43.600210 (68dcf5eebde371..., userDataDir: C:\Users\Chintu\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:52441}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 71.0.3578.98, webStorageEnabled: true}
+Session ID: 692f9730827414a9cd848235927a528f
 *** Element info: {Using=xpath, value=//nobr[.='Issue Date:']/../../td[2]}
-2019-01-05 01:36:48,693 [main] INFO OpenApp - Launching the browser
-2019-01-05 01:36:53,036 [main] INFO OpenApp - Loding URL
-2019-01-05 01:36:53,062 [main] INFO script.TestProductEdition - Reading UN From Input Excel File
-2019-01-05 01:36:53,078 [main] INFO script.TestProductEdition - Username Used : admin
-2019-01-05 01:36:53,078 [main] INFO script.TestProductEdition - Reading PW From Input Excel File
-2019-01-05 01:36:53,096 [main] INFO script.TestProductEdition - Password Used : manager
-2019-01-05 01:36:53,113 [main] INFO script.TestProductEdition - expectedproductEdition : actiTIME 2017.4
-2019-01-05 01:36:53,257 [main] INFO script.TestProductEdition - Entering UN
-2019-01-05 01:36:53,375 [main] INFO script.TestProductEdition - Entering PW
-2019-01-05 01:36:53,442 [main] INFO script.TestProductEdition - Clicking LoginBTN
-2019-01-05 01:36:58,306 [main] INFO script.TestProductEdition - Click on Setting
-2019-01-05 01:37:01,676 [main] INFO script.TestProductEdition - Click on Licenses
-2019-01-05 01:37:01,774 [main] INFO script.TestProductEdition - Verify Product Edition
-2019-01-05 01:37:03,250 [main] INFO script.TestProductEdition - Click On Logout
-2019-01-05 01:37:03,319 [main] INFO closeApp - ProductEdition
-2019-01-05 01:37:03,319 [main] INFO closeApp - Passed
-2019-01-05 01:37:07,912 [main] INFO OpenApp - Launching the browser
-2019-01-05 01:37:12,355 [main] INFO OpenApp - Loding URL
-2019-01-05 01:37:12,384 [main] INFO script.TestAddTaskLnk - Reading UN From Input Excel File
-2019-01-05 01:37:12,400 [main] INFO script.TestAddTaskLnk - Username Used : admin
-2019-01-05 01:37:12,400 [main] INFO script.TestAddTaskLnk - Reading PW From Input Excel File
-2019-01-05 01:37:12,426 [main] INFO script.TestAddTaskLnk - Password Used : manager
-2019-01-05 01:37:12,521 [main] INFO script.TestAddTaskLnk - Entering UN
-2019-01-05 01:37:12,614 [main] INFO script.TestAddTaskLnk - Entering PW
-2019-01-05 01:37:12,675 [main] INFO script.TestAddTaskLnk - Clicking LoginBTN
-2019-01-05 01:37:19,530 [main] INFO script.TestAddTaskLnk - Clicking On Add Recent Task Lnk
-2019-01-05 01:37:20,110 [main] INFO script.TestAddTaskLnk - Waiting For TaskList Option TO be Visible
-2019-01-05 01:37:20,156 [main] INFO script.TestAddTaskLnk - Asserting Task List Options Displayed
-2019-01-05 01:37:20,208 [main] INFO closeApp - AddTaskLnk
-2019-01-05 01:37:20,208 [main] INFO closeApp - Passed
-2019-01-05 01:37:23,054 [main] WARN closeTest - Pass:4
-2019-01-05 01:37:23,055 [main] WARN closeTest - Fail:1
+2019-01-06 22:21:34,815 [main] INFO OpenApp - Launching the browser
+2019-01-06 22:21:39,641 [main] INFO OpenApp - Loding URL
+2019-01-06 22:21:39,672 [main] INFO script.TestProductEdition - Reading UN From Input Excel File
+2019-01-06 22:21:39,701 [main] INFO script.TestProductEdition - Username Used : admin
+2019-01-06 22:21:39,701 [main] INFO script.TestProductEdition - Reading PW From Input Excel File
+2019-01-06 22:21:39,718 [main] INFO script.TestProductEdition - Password Used : manager
+2019-01-06 22:21:39,740 [main] INFO script.TestProductEdition - expectedproductEdition : actiTIME 2017.4
+2019-01-06 22:21:39,832 [main] INFO script.TestProductEdition - Entering UN
+2019-01-06 22:21:39,966 [main] INFO script.TestProductEdition - Entering PW
+2019-01-06 22:21:40,034 [main] INFO script.TestProductEdition - Clicking LoginBTN
+2019-01-06 22:21:44,946 [main] INFO script.TestProductEdition - Click on Setting
+2019-01-06 22:21:46,427 [main] INFO script.TestProductEdition - Click on Licenses
+2019-01-06 22:21:46,491 [main] INFO script.TestProductEdition - Verify Product Edition
+2019-01-06 22:21:47,603 [main] INFO script.TestProductEdition - Click On Logout
+2019-01-06 22:21:47,619 [main] INFO closeApp - ProductEdition
+2019-01-06 22:21:47,620 [main] INFO closeApp - Passed
+2019-01-06 22:21:49,894 [main] INFO OpenApp - Launching the browser
+2019-01-06 22:21:54,128 [main] INFO OpenApp - Loding URL
+2019-01-06 22:21:54,139 [main] INFO script.TestAddTaskLnk - Reading UN From Input Excel File
+2019-01-06 22:21:54,160 [main] INFO script.TestAddTaskLnk - Username Used : admin
+2019-01-06 22:21:54,162 [main] INFO script.TestAddTaskLnk - Reading PW From Input Excel File
+2019-01-06 22:21:54,195 [main] INFO script.TestAddTaskLnk - Password Used : manager
+2019-01-06 22:21:54,303 [main] INFO script.TestAddTaskLnk - Entering UN
+2019-01-06 22:21:54,414 [main] INFO script.TestAddTaskLnk - Entering PW
+2019-01-06 22:21:54,488 [main] INFO script.TestAddTaskLnk - Clicking LoginBTN
+2019-01-06 22:21:59,057 [main] INFO script.TestAddTaskLnk - Clicking On Add Recent Task Lnk
+2019-01-06 22:21:59,675 [main] INFO script.TestAddTaskLnk - Waiting For TaskList Option TO be Visible
+2019-01-06 22:21:59,722 [main] INFO script.TestAddTaskLnk - Asserting Task List Options Displayed
+2019-01-06 22:21:59,756 [main] INFO closeApp - AddTaskLnk
+2019-01-06 22:21:59,756 [main] INFO closeApp - Passed
+2019-01-06 22:22:02,422 [main] WARN closeTest - Pass:4
+2019-01-06 22:22:02,422 [main] WARN closeTest - Fail:1

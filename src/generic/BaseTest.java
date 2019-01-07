@@ -6,12 +6,15 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.ITestResult;
 import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -24,26 +27,23 @@ import com.aventstack.extentreports.reporter.configuration.ChartLocation;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public abstract class BaseTest implements IAutoConst{
-	public WebDriver driver;
+	public static WebDriver driver;
 	public static int passCount=0,failCount=0;
 	private Logger beforemethodlogger, aftermethodlogger;
 	private Logger beforesuitlogger, aftersuitlogger;
 
 	
 	@BeforeSuite
+	
 	public void PreSetup() {
 		FWUtil.DeleteAllFilesInFolder(LOG_PATH);
 		FWUtil.DeleteAllFilesInFolder(PHOTO_PATH);
 		
+		
 		beforesuitlogger=Logger.getLogger("PreSetup");
         PropertyConfigurator.configure("Log4j.properties");
         
-
-        
-
-        System.setProperty(CHROME_KEY,CHROME_VALUE);
-		beforesuitlogger.info("Setting path for chrome driver");
-		
+        beforesuitlogger.info("Creating Backup Folders");
 		
 		FWUtil.CreateFolderWithName("./DataBackupLogs/"+FWUtil.date+"_"+FWUtil.month+"_"+FWUtil.year);
 		FWUtil.CreateFolderWithName("./DataBackupPhotos/"+FWUtil.date+"_"+FWUtil.month+"_"+FWUtil.year);
@@ -51,10 +51,36 @@ public abstract class BaseTest implements IAutoConst{
 	}
 	
 	@BeforeMethod
-	public void openApp(ITestResult res){
+	@Parameters("browser")
+	public void openApp(ITestResult res, String browser){
+		System.out.println("Before Method");
 		beforemethodlogger = Logger.getLogger("OpenApp");
 		PropertyConfigurator.configure("Log4j.properties");
-		driver=new ChromeDriver();
+		
+		String str = browser;
+		switch(str)
+		{
+		case "firefox":
+			System.out.println("firefox"); 
+			System.setProperty(FIREFOX_KEY,FIREFOX_VALUE);
+			driver=new FirefoxDriver();
+			
+			break;
+			
+		case "chrome":
+			System.out.println("chrome");
+			System.setProperty(CHROME_KEY,CHROME_VALUE);
+			driver=new ChromeDriver();
+			
+			break;
+			
+		case "IE":
+			System.out.println("IE");
+			System.setProperty(IE_KEY,IE_VALUE);
+			driver=new InternetExplorerDriver();
+			
+			break;
+		}
 		beforemethodlogger.info("Launching the browser");
 
 			
@@ -67,7 +93,7 @@ public abstract class BaseTest implements IAutoConst{
 	
 	@AfterMethod
 	public void closeApp(ITestResult res){
-		
+		System.out.println("After Method");
 		aftermethodlogger = Logger.getLogger("closeApp");
 		PropertyConfigurator.configure("Log4j.properties");
 		

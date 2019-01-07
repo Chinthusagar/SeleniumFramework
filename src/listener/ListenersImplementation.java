@@ -11,14 +11,13 @@ import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
 
 import generic.BaseTest;
-import generic.ExtentManager;
 
 public class ListenersImplementation extends BaseTest implements ITestListener{
 
 	 //Extent Report Declarations
     private static ExtentReports extent = ExtentManager.createInstance();
     private static ThreadLocal<ExtentTest> test = new ThreadLocal<ExtentTest>();
- 
+    
     
     public synchronized void onStart(ITestContext context) {
         System.out.println("Extent Reports Version 3 Test Suite started!");
@@ -32,9 +31,11 @@ public class ListenersImplementation extends BaseTest implements ITestListener{
  
     
     public synchronized void onTestStart(ITestResult result) {
+    	System.out.println("onTestStart");
         System.out.println((result.getMethod().getMethodName() + " started!"));
         ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName(),result.getMethod().getDescription());
         test.set(extentTest);
+        
     }
  
     
